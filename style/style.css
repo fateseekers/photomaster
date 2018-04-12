@@ -1,0 +1,322 @@
+body h1, body h2, body h3, body h4, body h5, caption{
+    font-family: 'ContentFontClematis', sans-serif;
+}
+
+body p{
+    font-family: 'pFontEchoesSans', sans-serif;
+}
+
+.navbar-brand{
+	margin-right: 0.5rem;
+}
+
+.logo{
+	height:3rem;
+}
+
+.navbar-brand{
+	width:auto;
+	font-size: 1rem;
+	color:lightgrey;
+    vertical-align: middle;
+    font-family: 'LogoFontAmaltea',sans-serif;
+}
+
+.menu .nav-link{
+    color:white !important;
+    justify-content: center;
+    width:100%;
+    border:none;
+    border-radius: 0;
+    padding:10px 25px;
+    margin:5px 10px;
+    font-family: 'menuFontEchoesSans', sans-serif;
+}
+
+.menu .nav-link:hover{
+    color:#343a40 !important;
+}
+
+.cabinetLogo, .cabinetLogo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.links{
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    color:white;
+}
+
+.cabinet{
+    font-family: 'menuFontEchoesSans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount{
+    background-image: url(../img/gallery/12.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    background-position: left middle;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.discount-text{
+    color:white;
+    font-size: 5rem;
+    margin-top: 8rem !important;
+}
+
+.discount-text button{
+    width:150px;
+    padding: 10px 15px;
+    margin-top: -50px;
+}
+
+.gallery img{
+    margin:15px 0;
+    width:100%;
+}
+
+.instagram img{
+    box-shadow: none;
+    margin:5px;
+    width:15%;
+}
+
+.instagram .logoinst{
+    width:6rem;
+}
+
+.instagram a, .instagram h4{
+    text-decoration: none;
+    color:#343a40;
+    font-size: 1.4rem;
+}
+
+.author{
+    border-radius:20rem;
+    width:14rem;
+}
+
+.image{
+	border:1px solid lightgrey;
+	border-radius: 200px;
+    background-color:lightgray;
+    width:150px;
+    height:150px;
+}
+
+.row{
+    justify-content: center;
+    padding:-15px;
+}
+
+.col{
+    padding:0px;
+}
+
+.card{
+    margin: 2rem auto 0 auto;
+    max-width:250px;
+    height:270px;
+}
+
+.tab-content{
+    border: 1px solid grey;
+    padding:1rem;
+    border-radius: 5px;
+    align-items: center;
+    width:95%;
+}
+
+.nav{
+    border-radius: 5px;
+}
+
+.pluses h3{
+    font-family: 'h3FontDororthea', sans-serif;
+}
+
+
+.mailsvg{
+    width:5rem;
+    height:5rem;
+    margin: 1rem 0;
+}
+
+.form form label{
+    float:left;
+    white-space: nowrap;
+} 
+
+
+.form form input[type="text"], .form form input[type="email"]{
+    float:left;
+    width:100%;
+}
+
+.form input[type="submit"], .form input[type="reset"]{
+    width:6.5rem;
+    height:2.5rem;
+    margin:0.5rem;
+    padding:5px 12px;
+}
+
+#contactform input{
+    width:100%;
+    padding:2px 0px 2px 5px;
+}
+
+textarea{
+    resize:none;
+}
+
+.photorow{
+    margin-bottom: 20px;
+}
+
+.photorow img{
+    width:28%;
+    height: auto;
+    margin:5px;
+}
+
+.price{
+    height: auto;
+    margin:0;
+    padding:0;
+    outline: solid 2px #343a40;
+    justify-content: center;
+    text-align: center
+}
+
+.price h5{
+    width:100%;
+    margin-bottom: 0;
+    padding:10px;
+}
+
+.price button{
+    margin:10px 0px 20px 0;
+    vertical-align: bottom;
+}
+
+.grey{
+    background-color:#b4bbc2;
+    color:#343a40;
+}
+
+.posts{
+    margin:0 10px;
+    padding:15px 20px;
+    border:2px solid #343a40;
+    border-radius:10px;
+}
+
+.review{
+    margin:0 10px;
+    width:100%;
+    border:2px solid #343a40;
+    border-radius: 10px;
+    padding:20px 30px;
+}
+
+.review input[type="text"]{
+    width:100%;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+.review textarea{
+    width:100%;
+    padding:5px 10px;
+    border-radius: 5px;
+}
+
+
+/*Стили для футера*/
+
+footer{
+    background: #343a40;
+    padding:20px 10px;
+    color:white;
+}
+
+footer a{
+    color:White;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color:white;
+}
+
+/*Социальные кнопки*/
+
+.all{
+    padding: 0.5rem 3rem;
+}
+
+.social{
+    position:fixed;
+    background-color: #343a40;
+    border:1px solid white;
+    border-left:none;
+    border-bottom-right-radius: 10px;
+    padding:6px 5px 6px 20px;
+    left:0;
+    bottom:3rem;
+    width: 6rem;
+    margin-left: -3rem;
+    transition:0.5s;
+}
+
+.social:hover{
+	margin-left: 0rem;
+	transition:0.5s;
+}
+
+.social img{
+    width:2rem;
+    margin-left:2rem;
+}
+
+.sharethis-inline-share-buttons{
+	height:50px;
+}
+
+/*Шрифты для сайта*/
+
+@font-face {
+    font-family: 'ContentFontClematis' ;
+    src: url(../fonts/ContentFontClematis.ttf);
+}
+
+@font-face {
+    font-family: 'h3FontDororthea' ;
+    src: url(../fonts/h3FontDororthea.ttf);
+}
+
+@font-face {
+    font-family: 'LogoFontAmaltea' ;
+    src: url(../fonts/LogoFontAmaltea.ttf);
+}
+
+@font-face {
+    font-family: 'pFontEchoesSans' ;
+    src: url(../fonts/pFontEchoesSans.otf);
+}
+
+@font-face {
+    font-family: 'menuFontEchoesSans' ;
+    src: url(../fonts/menuFontEchoesSans.otf);
+}

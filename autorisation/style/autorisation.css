@@ -1,0 +1,86 @@
+body h1, body h2, body h3, body h4, body h5, legend{
+    font-family: 'ContentFontClematis', sans-serif;
+}
+
+body p{
+    font-family: 'pFontEchoesSans', sans-serif;
+}
+
+body{
+	background-size: cover;
+}
+
+.center{
+	margin-top: 150px;
+}
+
+form{
+	max-width: 100%;
+}
+
+form label{
+	width:100px;
+	font-weight: bold;
+}
+
+form input{
+	max-width:250px;
+	border:3px solid #343a40;
+	background-color: #7c8894;
+}
+
+form button{
+	text-align: center;
+	align-items: center;
+	width:75px;
+	height:75px;
+	border-radius:75px !important;
+	position: relative;
+	margin-left:-30px;
+	border:3px solid white !important;
+	background-color: #343a40;
+	background-image: url(../../img/enter.svg);
+	background-position: 20px 18px;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+.Center{
+	margin-top: 10rem;
+}
+
+@media screen and (max-width: 575px){
+	form button{
+		margin-left:0px;
+		border-radius:10px !important;
+		background-position: 19px 6px;
+		margin-top:.5rem;
+		width:70px;
+		height:50px;
+	}
+}
+
+@font-face {
+    font-family: 'ContentFontClematis' ;
+    src: url(../../fonts/ContentFontClematis.ttf);
+}
+
+@font-face {
+    font-family: 'h3FontDororthea' ;
+    src: url(../../fonts/h3FontDororthea.ttf);
+}
+
+@font-face {
+    font-family: 'LogoFontAmaltea' ;
+    src: url(../../fonts/LogoFontAmaltea.ttf);
+}
+
+@font-face {
+    font-family: 'pFontEchoesSans' ;
+    src: url(../../fonts/pFontEchoesSans.otf);
+}
+
+@font-face {
+    font-family: 'menuFontEchoesSans' ;
+    src: url(../../fonts/menuFontEchoesSans.otf);
+}
